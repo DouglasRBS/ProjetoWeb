@@ -1,0 +1,215 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: sans-serif;
+background-color: #ffffff;
+color: #000;
+overflow-x: hidden;
+}
+
+header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 40px;
+height: 60px;
+background-color: #fff;
+border-bottom: 2px solid #e0e0e0;
+}
+
+.header-left {
+display: flex;
+align-items: center;
+gap: 28px;
+}
+
+.logo {
+width: 32px;
+height: 32px;
+background-color: #f0c0ff;
+border: 2px solid #cc44ff;
+border-radius: 6px;
+}
+
+.nav-links {
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.nav-item {
+width: 100px;
+height: 28px;
+background-color: #f5f5f5;
+border: 2px dashed #bbb;
+border-radius: 4px;
+}
+
+.nav-item-sm {
+width: 70px;
+height: 28px;
+background-color: #f5f5f5;
+border: 2px dashed #bbb;
+border-radius: 4px;
+}
+
+.header-right {
+display: flex;
+align-items: center;
+gap: 16px;
+}
+
+.btn-ghost {
+width: 80px;
+height: 36px;
+background-color: #f5f5f5;
+border: 2px dashed #bbb;
+border-radius: 4px;
+}
+
+.btn-outline {
+width: 200px;
+height: 38px;
+background-color: #fff;
+border: 2px solid #111;
+border-radius: 6px;
+}
+
+.btn-solid {
+width: 180px;
+height: 38px;
+background-color: #111;
+border: 2px solid #000;
+border-radius: 6px;
+}
+
+main {
+display: flex;
+align-items: center;
+justify-content: space-between;
+min-height: calc(100vh - 60px);
+padding: 60px 80px;
+overflow: hidden;
+position: relative;
+}
+
+.hero-left {
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 28px;
+width: 52%;
+}
+
+.hero-title {
+width: 100%;
+height: 110px;
+background-color: #f5f5f5;
+border: 2px dashed #999;
+border-radius: 4px;
+}
+
+.hero-description {
+width: 90%;
+height: 130px;
+background-color: #f5f5f5;
+border: 2px dashed #bbb;
+border-radius: 4px;
+}
+
+.hero-buttons {
+display: flex;
+align-items: center;
+gap: 16px;
+}
+
+.hero-btn-primary {
+width: 160px;
+height: 48px;
+background-color: #111;
+border: 2px solid #000;
+border-radius: 6px;
+}
+
+.hero-btn-outline {
+width: 210px;
+height: 48px;
+background-color: #fff;
+border: 2px solid #111;
+border-radius: 6px;
+}
+
+.hero-right {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 16px;
+width: 40%;
+position: relative;
+min-height: 500px;
+}
+
+.deco-semicircle {
+width: 200px;
+height: 100px;
+background-color: #3355cc;
+border: 3px solid #2233aa;
+border-radius: 200px 200px 0 0;
+position: relative;
+}
+
+.deco-semicircle::after {
+content: "";
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+width: 120px;
+height: 60px;
+background-color: #227733;
+border: 3px solid #116622;
+border-radius: 200px 200px 0 0;
+}
+
+.deco-pill-top,
+.deco-pill-bottom {
+width: 50px;
+height: 20px;
+background-color: #ff44aa;
+border: 2px solid #cc2288;
+border-radius: 20px;
+}
+
+.deco-diamond {
+width: 180px;
+height: 180px;
+background-color: #7a1a1a;
+border: 3px solid #550f0f;
+transform: rotate(45deg);
+border-radius: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.deco-diamond-inner {
+width: 90px;
+height: 90px;
+background-color: #cccc22;
+border: 3px solid #aaaa00; 
+border-radius: 50%;
+transform: rotate(-45deg);
+}
+
+.deco-cloud {
+width: 180px;
+height: 100px;
+background-color: #44dd55;
+border: 3px solid #22bb33;
+border-radius: 50% 50% 0 0;
+}
