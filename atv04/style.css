@@ -23,11 +23,11 @@ body {
 }
 
 .logo {
-    max-width: 80px; /* Tamanho do logo controlado */
+    max-width: 80px; 
     height: auto;
     margin: 0 auto 10px;
     display: block;
-    border-radius: 50%; /* Como o logo tem fundo preto, fica circular e limpo */
+    border-radius: 50%; 
 }
 
 .main-nav ul {
@@ -72,11 +72,10 @@ section, article {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* AJUSTE DAS IMAGENS DOS CARROS */
 .post-img {
     width: 100%;
-    max-height: 400px; /* Impede que a imagem fique gigante na vertical */
-    object-fit: cover; /* Faz o crop inteligente para preencher o espaço */
+    max-height: 400px; 
+    object-fit: cover; 
     margin: 15px 0;
     border-radius: 4px;
 }
